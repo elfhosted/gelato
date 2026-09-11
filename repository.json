@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "category": "General",
+    "description": "Stream external media.\n",
+    "guid": "94EA4E14-8163-4989-96FE-0A2094BC2D6A",
+    "name": "Gelato",
+    "overview": "Stream external media. ElfHosted fork, Jellyfin 12 compatibility only.",
+    "owner": "lstb1t",
+    "versions": [
+      {
+        "changelog": "Unofficial build of [lostb1t/Gelato](https://github.com/lostb1t/Gelato) with Jellyfin 12 compatibility, published so ElfHosted's Jellyfin 12 users aren't stranded while [lostb1t/Gelato#208](https://github.com/lostb1t/Gelato/pull/208) is under consideration.\n\nNo feature changes. The only difference from upstream v0.26.16.0 is the Jellyfin 12 port.\n\nThis is a stopgap, not a maintained fork. It uses the same plugin GUID as upstream and is versioned below upstream's next release, so once an official Jellyfin 12 build ships you will be offered it automatically. We will retire this repo at that point.\n\nUse ONLY this plugin repository, not alongside the upstream one.",
+        "checksum": "a97c923c1b45c7c94a431fcb37261508",
+        "sourceUrl": "https://github.com/elfhosted/gelato/releases/download/v0.26.16.100/gelato_0.26.16.100.zip",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-09-11T01:22:38Z",
+        "version": "0.26.16.100"
+      }
+    ]
+  }
+]
